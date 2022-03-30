@@ -1,8 +1,8 @@
 <?php
 
-namespace Supri\LoginManagementVersigue\Middleware;
+namespace Supri\LoginManagementVersigue\app\Middleware;
 
 interface Middleware
 {
-    function berfore() :void
+    function before() :void;
 }
